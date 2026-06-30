@@ -1,0 +1,13 @@
+model,test_condition,accuracy,macro_f1
+MLP,clean,0.8419,0.841669
+MLP,noise,0.835,0.834408
+MLP,rotation,0.5236,0.492647
+MLP,occlusion,0.7733,0.7728
+SmallCNN,clean,0.8496,0.850742
+SmallCNN,noise,0.8241,0.826356
+SmallCNN,rotation,0.6908,0.69781
+SmallCNN,occlusion,0.7789,0.777509
+SmallCNN_Aug,clean,0.7879,0.779704
+SmallCNN_Aug,noise,0.7752,0.771771
+SmallCNN_Aug,rotation,0.7666,0.77287
+SmallCNN_Aug,occlusion,0.7628,0.755436
