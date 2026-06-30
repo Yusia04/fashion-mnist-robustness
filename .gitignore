@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+data/FashionMNIST/
+results/*.csv
+results/figures/*.png
