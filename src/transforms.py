@@ -90,7 +90,7 @@ def get_eval_transform(condition: str = "clean") -> T.Compose:
     elif condition == "rotation":
         ops = [T.Lambda(_rotate_15_degrees), T.ToTensor()]
     elif condition == "occlusion":
-        ops = [T.ToTensor(), SquareOcclusion(mask_size=8, position="center")]
+        ops = [T.ToTensor(), SquareOcclusion(mask_size=8, position="random")]
     else:
         raise ValueError(f"Unknown test condition: {condition}")
 
